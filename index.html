@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <!-- meta -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Google Clone">
+  <meta name="robots" content="index,follow">
+
+  <!-- link -->
+  <link rel="icon" href="https://en.wikipedia.org/favicon.ico">
+
+  <!-- breakpoint -->
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/style-tablet-small.css" media="screen and (min-width: 480px)">
+  <link rel="stylesheet" href="./css/style-tablet.css" media=" screen and (min-width: 768px)">
+  <link rel="stylesheet" href="./css/style-desktop.css" media=" screen and (min-width: 908px)">
+  
+  <title>Wikipedia</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__logo">
+      <div class="header__logo-image">
+        <figure class="header__figure">
+          <img class="header__image" src="./img/logo-image.png" alt="logo de wikipedia" title="logo de wikipedia">
+        </figure>
+      </div>
+      <div class="header__logo-text">
+        <figure>
+          <img class="header__image-text" src="./img/wikipedia.svg" alt=" logo-text de wikipedia" title="logo-text de wikipedia">
+        </figure>
+        <h2 class="header__sub-title">
+          La enciclopedia libre
+        </h2>
+      </div>
+    </div>
+    <div class="header__content-search">
+      <div class="header__search">
+        <input class="header__input" type="search">
+        <select class="header__list" name="language" id="lenguage">
+          <option value="EL">EL</option>
+          <option value="EN">EN</option>
+        </select>
+      </div>
+      <button class="header__btn">
+        <img class="header__btn-ico" src="./img/search.svg" alt="ico of search">
+      </button>
+    </div>
+    <div class="header__languages">
+      <div class="header__language">
+        <a class="header__lang" href="#" title="Wikipedia - Español">
+          Español
+        </a>
+        <p class="header__copy">ico for wikipedia
+          1 657 000+ artículos
+        </p>
+      </div>
+      <div class="header__language">
+        <a class="header__lang" href="#" title="Wikipedia - English">
+          English
+        </a>
+        <p class="header__copy">
+          6 240 000+ articles
+        </p>
+      </div>
+      <div class="header__language header__language--three">
+        <a class="header__lang" href="#" title="Wikipedia - 日本語">
+          日本語
+        </a>
+        <p class="header__copy">
+          1 251 000+ 記事
+        </p>
+      </div>
+      <div class="header__language header__language--four">
+        <a class="header__lang" href="#" title="Wikipedia - Deutsch">
+          Deutsch
+        </a>
+        <p class="header__copy">
+          2 531 000+ Artikel
+        </p>
+      </div>
+      <div class="header__language header__language--five">
+        <a class="header__lang" href="#" title="Wikipedia - Русский">
+          Русский
+        </a>
+        <p class="header__copy">
+          1 695 000+ статей
+        </p>
+      </div>
+      <div class="header__language header__language--six">
+        <a class="header__lang" href="#" title="Wikipedia - Français">
+          Français
+        </a>
+        <p class="header__copy">
+          2 294 000+ articles
+        </p>
+      </div>
+      <div class="header__language  header__language--seven">
+        <a class="header__lang" href="#" title="Wikipedia - Italiano">
+          Italiano
+        </a>
+        <p class="header__copy">
+          1 671 000+ voci
+        </p>
+      </div>
+      <div class="header__language header__language--nine">
+        <a class="header__lang" href="#" title="Wikipedia - 中文">
+          中文
+        </a>
+        <p class="header__copy">
+          1 174 000+ 條目
+        </p>
+      </div>
+      <div class="header__language">
+        <a class="header__lang" href="#" title="Wikipedi - Polski">
+          Polski
+        </a>
+        <p class="header__copy">
+          1 453 000+ haseł
+        </p>
+      </div>
+      <div class="header__language">
+        <a class="header__lang" href="#" title="Wikipedia - Português">
+          Português
+        </a>
+        <p class="header__copy">
+          1 054 000+ artigos
+        </p>
+      </div>
+    </div>
+    <div class="header__detalist">
+      <button class="header__list-btn">
+        <span class="header__list-span">
+          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="-1 -1 22 22" id="language-icon"
+            y="617">
+            <path fill="#36d" fill-rule="evenodd"
+              d="M20 18h-1.44a.61.61 0 01-.4-.12.81.81 0 01-.23-.31L17 15h-5l-1 2.54a.77.77 0 01-.22.3.59.59 0 01-.4.14H9l4.55-11.47h1.89zm-3.53-4.31L14.89 9.5a11.62 11.62 0 01-.39-1.24q-.09.37-.19.69l-.19.56-1.58 4.19zm-6.3-1.58a13.43 13.43 0 01-2.91-1.41 11.46 11.46 0 002.81-5.37H12V4H7.31a4 4 0 00-.2-.56C6.87 2.79 6.6 2 6.6 2l-1.47.5s.4.89.6 1.5H0v1.33h2.15A11.23 11.23 0 005 10.7a17.19 17.19 0 01-5 2.1q.56.82.87 1.38a23.28 23.28 0 005.22-2.51 15.64 15.64 0 003.56 1.77zM3.63 5.33h4.91a8.11 8.11 0 01-2.45 4.45 9.11 9.11 0 01-2.46-4.45z" />
+          </svg>
+        </span>
+        <span class="header__list-span header__list-span--mod">
+          Leer Wikipedia en tu idioma
+        </span>
+        <span>
+          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="-1 -1 14 14" id="arrow-down-blue"
+            y="527">
+            <path fill="#36d" d="M10.085 2.943L6.05 6.803l-3.947-3.86L1.05 3.996l5 5 5-5z" />
+          </svg>
+        </span>
+      </button>
+      <div class="header__line"></div>
+    </div>
+    <hr class="header__break">
+  </header>
+  <main class="main">
+    <section class="main__section">
+      <figure class="main__figure">
+        <img class="main__image" src="./img/main-ico1.svg" alt="ico for wikipedia">
+      </figure>
+      <p class="main__copy">
+        Wikipedia es alojada por la Fundación Wikimedia, una organización sin fines de lucro que también alberga una
+        gama de otros proyectos.
+      </p>
+    </section>
+    <section class="main__section-two">
+      <div class="main__sec-tw__div">
+        <figure class="main__sec-tw__figure">
+          <img class="main__sec-tw__image" src="./img/main-ico2.svg" alt="ico for wikipedia">
+        </figure>
+        <div class="main__sec-tw__item">
+          <a href="#" class="main__sec-tw__link">
+            Commons
+          </a>
+          <p class="main__sec-tw__copy">
+            Fotos libremente utilizables y más
+          </p>
+        </div>
+      </div>
+      <div class="main__sec-tw__div">
+        <figure class="main__sec-tw__figure">
+          <img class="main__sec-tw__image" src="./img/main-ico3.svg" alt="ico for wikipedia">
+        </figure>
+        <div class="main__sec-tw__item">
+          <a href="#" class="main__sec-tw__link">
+            Wikiviajes
+          </a>
+          <p class="main__sec-tw__copy">
+            La guía de viajes libre
+          </p>
+        </div>
+      </div>
+      <div class="main__sec-tw__div">
+        <figure class="main__sec-tw__figure">
+          <img class="main__sec-tw__image" src="./img/main-ico4.svg" alt="ico for wikipedia">
+        </figure>
+        <div class="main__sec-tw__item">
+          <a href="#" class="main__sec-tw__link">
+            Wikcionario
+          </a>
+          <p class="main__sec-tw__copy">
+            El diccionario libre
+          </p>
+        </div>
+      </div>
+      <div class="main__sec-tw__div">
+        <figure class="main__sec-tw__figure">
+          <img class="main__sec-tw__image" src="./img/main-ico5.svg" alt="ico for wikipedia">
+        </figure>
+        <div class="main__sec-tw__item">
+          <a href="#" class="main__sec-tw__link">
+            Wikilibros
+          </a>
+          <p class="main__sec-tw__copy">
+            Libros de contenido libre
+          </p>
+        </div>
+      </div>
+      <div class="main__sec-tw__div">
+        <figure class="main__sec-tw__figure">
+          <img class="main__sec-tw__image--mod"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Wikinews-logo.svg/1280px-Wikinews-logo.svg.png"
+            alt="ico for wikipedia">
+        </figure>
+        <div class="main__sec-tw__item">
+          <a href="#" class="main__sec-tw__link">
+            Wikinoticias
+          </a>
+          <p class="main__sec-tw__copy">
+            La fuente de noticias libres
+          </p>
+        </div>
+      </div>
+      <div class="main__sec-tw__div">
+        <figure class="main__sec-tw__figure">
+          <img class="main__sec-tw__image" src="./img/main-ico7.svg" alt="ico for wikipedia">
+        </figure>
+        <div class="main__sec-tw__item">
+          <a href="#" class="main__sec-tw__link">
+            Wikidata
+          </a>
+          <p class="main__sec-tw__copy">
+            Base de conocimiento libre
+          </p>
+        </div>
+      </div>
+      <div class="main__sec-tw__div">
+        <figure class="main__sec-tw__figure">
+          <img class="main__sec-tw__image" src="./img/main-ico8.svg" alt="ico for wikipedia">
+        </figure>
+        <div class="main__sec-tw__item">
+          <a href="#" class="main__sec-tw__link">
+            Wikiversidad
+          </a>
+          <p class="main__sec-tw__copy">
+            Plataforma educativa libre
+          </p>
+        </div>
+      </div>
+      <div class="main__sec-tw__div">
+        <figure class="main__sec-tw__figure">
+          <img class="main__sec-tw__image" src="./img/main-ico9.svg" alt="ico for wikipedia">
+        </figure>
+        <div class="main__sec-tw__item">
+          <a href="#" class="main__sec-tw__link">
+            Wikiquote
+          </a>
+          <p class="main__sec-tw__copy">
+            La colección de citas
+          </p>
+        </div>
+      </div>
+      <div class="main__sec-tw__div">
+        <figure class="main__sec-tw__figure">
+          <img class="main__sec-tw__image" src="./img/main-ico10.svg" alt="ico for wikipedia">
+        </figure>
+        <div class="main__sec-tw__item">
+          <a href="#" class="main__sec-tw__link">
+            MediaWiki
+          </a>
+          <p class="main__sec-tw__copy">
+            Aplicación wiki libre y abierta
+          </p>
+        </div>
+      </div>
+      <div class="main__sec-tw__div">
+        <figure class="main__sec-tw__figure">
+          <img class="main__sec-tw__image" src="./img/main-ico11.svg" alt="ico for wikipedia">
+        </figure>
+        <div class="main__sec-tw__item">
+          <a href="#" class="main__sec-tw__link">
+            Wikisource
+          </a>
+          <p class="main__sec-tw__copy">
+            La biblioteca libre
+          </p>
+        </div>
+      </div>
+      <div class="main__sec-tw__div">
+        <figure class="main__sec-tw__figure">
+          <img class="main__sec-tw__image" src="./img/main-ico12.svg" alt="ico for wikipedia">
+        </figure>
+        <div class="main__sec-tw__item">
+          <a href="#" class="main__sec-tw__link">
+            Wikispecies
+          </a>
+          <p class="main__sec-tw__copy">
+            Directorio de especies libre
+          </p>
+        </div>
+      </div>
+      <div class="main__sec-tw__div">
+        <figure class="main__sec-tw__figure">
+          <img class="main__sec-tw__image" src="./img/main-ico13.svg" alt="ico for wikipedia">
+        </figure>
+        <div class="main__sec-tw__item">
+          <a href="#" class="main__sec-tw__link">
+            Meta-Wiki
+          </a>
+          <p class="main__sec-tw__copy">
+            Coordinación y documentación comunitaria
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="main__section-three">
+      <figure class="main__sec-th__figure">
+        <img class="main__sec-th__image--mod" src="./img/main-ico14.svg" alt="ico for wikipedia">
+        <h4 class="main__sec-th__title">
+          Descargar Wikipedia para Android o iOS
+        </h4>
+      </figure>
+      <p class="main__sec-th__copy">
+        Guarda tus artículos favoritos para leerlos sin conexión, sincroniza tus listas de lectura en varios
+        dispositivos y personaliza tu experiencia de lectura con la aplicación oficial de Wikipedia.
+      </p>
+      <div class="main__sec-th__images">
+        <a href="#" class="main__sec-th__link">
+          <img class="main__sec-th__image" src="./img/main-ico15.svg" alt="ico for wikipedia">
+        </a>
+        <a href="#" class="main__sec-th__link">
+          <img class="main__sec-th__image" src="./img/main-ico16.svg" alt="ico for wikipedia">
+        </a>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer__end">
+      <p class="footer__copy">
+        Esta página está disponible bajo la
+        <a href="#" class="footer__link">
+          licencia Creative Commons Atribución-CompartirIgual
+        </a>
+        <span class="footer__span">&nbsp;&#8226;&nbsp;</span>
+        <a href="#" class="footer__link">
+          Términos de uso
+        </a>
+        <span class="footer__span">&nbsp;&#8226;&nbsp;</span>
+        <a href="#" class="footer__link">
+          Normativa de privacidad
+        </a>
+      </p>
+    </div>
+  </footer>
+</body>
+
+</html>

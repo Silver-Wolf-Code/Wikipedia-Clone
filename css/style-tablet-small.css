@@ -1,0 +1,101 @@
+/* header */
+.header{
+  display: flex;
+  flex-direction: column;
+}
+
+/* content one */
+.header__logo{
+  order: 1;
+  margin-top: 5.2rem;
+  margin-bottom: 6px;
+}
+.header__logo-image{
+  position: absolute;
+  top: 20rem;
+  z-index: 3;
+}
+.header__figure{
+  width: 200px;
+}
+.header__image-text{
+  height: 33px;
+  margin-bottom: 4px;
+}
+.header__sub-title{
+  font-size: 1.5rem;
+}
+
+/* content two */
+.header__content-search{
+  order: 3;
+  margin-bottom: 3rem;
+}
+.header__search{
+  width: 70%;
+  max-width: 400px;
+}
+.header__line{
+  max-width: 440px;
+}
+
+/* content three */
+.header__languages{
+  order: 2;
+  z-index: 2;
+  width: 100%;
+  max-width: 570px;
+  margin-bottom: 10px;
+}
+.header__language{
+  height: 68px;
+  width: 45%;
+}
+.header__language--three{
+  padding-right: 18%;
+}
+.header__language--four{
+  padding-left: 18%;
+}
+.header__language--five{
+  padding-right: 21%;
+}
+.header__language--six{
+  padding-left: 21%;
+}
+.header__language--seven{
+  padding-right: 18%;
+}
+.header__language--nine{
+  padding-left: 18%;
+}
+.header__lang{
+  margin-bottom:7px;
+  font-size: 1.6rem;
+}
+
+
+/* content four */
+.header__detalist{
+  order: 4;
+}
+
+/* content five */
+.header__break{
+  order: 5;
+}
+
+
+/* container one */
+.main__section{
+  margin-bottom: 38px;
+}
+
+.main__sec-tw__div{
+  width: 31%;
+}
+
+/* footer */
+.footer{
+  margin: 25px;
+}

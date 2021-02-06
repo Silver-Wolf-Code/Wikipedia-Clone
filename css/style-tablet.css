@@ -1,0 +1,60 @@
+/* main */
+.main {
+  margin: 0 auto;
+  margin-top: 35px;
+  margin-bottom: 30px;
+}
+
+/* content one */
+.main__section {
+  float: left;
+  display: flex;
+  text-align: left;
+  width: 35%;
+}
+
+.main__figure {
+  margin-right: 10px;
+}
+
+.main__copy {
+  width: 75%;
+}
+
+/* content two */
+.main__section-two {
+  width: 64%;
+  float: right;
+  right: 0;
+}
+
+
+/* content three */
+.main__section-three {
+  clear: left;
+  width: 35%;
+  padding-top: 5px;
+  padding-left: 5px;
+  width: 35%;
+}
+
+.main__sec-th__figure {
+  justify-content: left;
+}
+
+.main__sec-th__image--mod {
+  width: auto;
+}
+
+.main__sec-th__copy {
+  text-align: left;
+  margin-left: 53px;
+  width: 75%;
+}
+
+.main__sec-th__images {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 53px;
+}
